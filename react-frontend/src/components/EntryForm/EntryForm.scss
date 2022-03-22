@@ -1,0 +1,88 @@
+.entryForm{
+    flex: 1;
+    height: calc(100vh - 80px);
+
+    .historyContainer{
+        display: flex;
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+        .historyBox{
+            border: 1px solid black;
+            display: flex;
+            margin-right: 5px;
+            cursor: pointer;
+            pointer-events: all;
+            align-items: center;
+        }
+
+        .history{
+            margin: 0px 5px;
+        }
+
+        .text{
+            font-weight: 600;
+        }
+
+        .icon{
+            background-color: aquamarine;
+            border-radius: 50%;
+        }
+
+        .select{
+            font-weight: 600;
+            margin: 4px;
+        }
+    }
+}
+
+.update{
+    padding: 10px;
+    -webkit-box-shadow: 1px 0px 8px 1px #000000; 
+    box-shadow: 1px 0px 8px 1px #000000;
+    margin-left: 20px;
+
+    .updateTitle{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .updateForm{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .updateLeft{
+
+            .updateItem{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+
+                >label{
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+
+                .userInput{
+                    border: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    width: 250px;
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+            }
+        }
+        .updateButton{
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+            padding: 5px;
+            cursor: pointer;
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

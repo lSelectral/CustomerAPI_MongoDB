@@ -1,4 +1,5 @@
-using CustomerCore;
+using CustomerCore.DB;
+using CustomerCore.Services;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Serialization;

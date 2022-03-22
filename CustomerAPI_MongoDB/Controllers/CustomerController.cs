@@ -1,4 +1,5 @@
-﻿using CustomerCore;
+﻿using CustomerCore.Models;
+using CustomerCore.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

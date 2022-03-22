@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace CustomerCore;
+namespace CustomerCore.Models;
 
 public class Customer
 {

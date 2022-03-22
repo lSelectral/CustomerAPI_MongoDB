@@ -1,6 +1,7 @@
-﻿using MongoDB.Driver;
+﻿using CustomerCore.Models;
+using MongoDB.Driver;
 
-namespace CustomerCore;
+namespace CustomerCore.DB;
 
 public interface IDBClient
 {

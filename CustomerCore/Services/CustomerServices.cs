@@ -1,6 +1,8 @@
-﻿using MongoDB.Driver;
+﻿using CustomerCore.DB;
+using CustomerCore.Models;
+using MongoDB.Driver;
 
-namespace CustomerCore;
+namespace CustomerCore.Services;
 
 public class CustomerServices : ICustomerServices
 {
@@ -32,7 +34,7 @@ public class CustomerServices : ICustomerServices
 
     public Customer AddCustomer(Customer customer)
     {
-        if (customer.rowId == 0 ) customer.rowId = GetCustomerCount() + 1;
+        if (customer.rowId == 0) customer.rowId = GetCustomerCount() + 1;
         _customers.InsertOne(customer);
         return customer;
     }

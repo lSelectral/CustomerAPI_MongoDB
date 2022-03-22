@@ -1,7 +1,8 @@
-﻿using Microsoft.Extensions.Options;
+﻿using CustomerCore.Models;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace CustomerCore;
+namespace CustomerCore.DB;
 
 public class DBClient : IDBClient
 {

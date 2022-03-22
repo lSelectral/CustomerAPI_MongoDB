@@ -1,4 +1,4 @@
-﻿namespace CustomerCore;
+﻿namespace CustomerCore.DB;
 
 public class DBConfig
 {

@@ -1,0 +1,74 @@
+.table{
+    flex : 4;
+    height: calc(100vh - 80px);
+}
+
+.loading-container{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.dataGrid{
+    height: calc(100vh - 80px); 
+    width: 100%;
+    border: 3px solid rgb(93, 244, 255);
+}
+
+.idColumn{background-color: rgb(255, 229, 195);}
+.dateColumn{}
+.nameColumn{background-color: rgb(255, 229, 195);}
+.phoneColumn{}
+.locationColumn{background-color: rgb(255, 229, 195);}
+.reservedTableColumn{}
+.notesColumn{background-color: rgb(255, 229, 195);}
+.editColumn{}
+
+.deleteButton{
+    cursor: pointer;
+    color: rgb(226, 81, 81);
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+
+.dateText{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.iconContainer{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 50%;
+    margin-right: 5px;
+
+    :hover{
+        background-color: rgb(226, 248, 226);
+        border-radius: 50%;
+    }
+}
+
+.arrow{
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.arrow.down{
+    color: red;
+}
+
+.arrow.up{
+    color: rgb(54, 230, 54);
+}

@@ -1,4 +1,5 @@
-﻿using CustomerCore;
+﻿using CustomerCore.DB;
+using CustomerCore.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;

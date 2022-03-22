@@ -1,4 +1,6 @@
-﻿namespace CustomerCore;
+﻿using CustomerCore.Models;
+
+namespace CustomerCore.Services;
 
 public interface ICustomerServices
 {
